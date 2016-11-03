@@ -1,4 +1,4 @@
-Crypto-Wheel Project
+# Crypto-Wheel Project
 
 This will allow you to automatically encrypt or decrypt a text based
 on the man-made Crypt-Wheel. When using the physical wheel, always
@@ -12,6 +12,7 @@ BLUE letter "Q".
 
 Example:
 
+```
 $ ./crypto_wheel.py --key=A --text="THIS IS MY STRING" -e 
 Clear    : THIS IS MY STRING
 Encrypted: GPXE XE QT EGCXSL
@@ -19,7 +20,7 @@ Encrypted: GPXE XE QT EGCXSL
 $ ./crypto_wheel.py --key=A --text="GPXE XE QT EGCXSL" -d 
 Encrypted: GPXE XE QT EGCXSL
 Clear    : THIS IS MY STRING
-
+```
 
 --
 December 10th 2010
